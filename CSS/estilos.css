@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../FONTS/Roboto-Light.ttf');
+}
+
+header{
+    background-color: #F0A83E;
+    display: flex;
+    position: relative;
+}
+.imagen-1{
+    width: 400px;
+    height: 60px;
+    margin: 5px;
+}
+.imagen-1:hover{
+    transform: scale(1.2);
+}
+.lista{
+    display: inline-block;
+    left: 300px;
+    position: relative;
+    padding:25px;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+}
+.lista:hover{
+    color: blue;
+    transform: scale(1.5);
+}
+main.{
+    background-color: white;
+    position: relative;
+}
+.container-padre{
+    border: 2px black solid;
+    position: relative;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'roboto';
+    margin-top: 100px;
+    color: #3C2313;
+}
+.lista1{
+    display: inline-block;
+    left: 35%;
+    position: relative;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.lista1:hover{
+    color: blue;
+}
+.container-hijo{
+    position: relative;
+    display: inline-flex;
+   margin-bottom: 10%;
+    width: 80%;
+    left: 10%;
+   
+}
+.container-hijo:hover{
+    border: 2px solid red;
+}
+.suscribete{
+    background-color: #F0A83E;
+    position: relative;
+}
+.suscribete-hijo{
+    position: relative;
+    left: 20%;
+    padding: 10px;
+}
+
+label{
+    position: relative;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'roboto';
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius:10px;
+}
+button{
+    background-color: #3C2313;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.carta{
+    width: 50px;
+}
+.carta:hover{
+    transform: scale(1.5);
+}
+footer{
+    background-color:#000000 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'roboto';
+}
+.comida{
+    width: 120%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.comida:hover{
+    border: 2px solid blue ;
+}
+
+.precio{
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: #F0A83E;
+}
+
+@media (max-width: 480px) {
+    .imagen-1{
+        width: 150px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    main {
+        width: 100vw;
+    }
+    .imagen-1{
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+               
+    }
+        
+    .iconos{
+        display: none;        
+    }
+  
+    .container-padre{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+
+    }
+    
